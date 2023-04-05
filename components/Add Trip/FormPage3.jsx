@@ -142,9 +142,9 @@ const FormPage3 = ({
     }
   }
     return (<View>
-    <Text style={styles.inputHeaderPage3}>Click the button below to see the best {checkedList.join(", ")} venues in {destination}.  </Text>
+    <Text style={styles.inputHeaderPage3}>Find the best {checkedList.join(", ")} venues in {destination} below.  </Text>
     <View style={{paddingBottom:100,margin:10}}>
-      <Button title ={"Generate Itinerary"}  buttonStyle={{
+      <Button title ={"Generate My Itinerary"}  buttonStyle={{
                 backgroundColor: 'rgba(111, 202, 186, 1)',
                 borderRadius: 10,
               }} containerStyle={styles.primaryButtonContainer} onPress={handlePress}/>
